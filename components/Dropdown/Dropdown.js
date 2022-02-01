@@ -19,7 +19,7 @@ export default function Dropdown({
           }}
           className={styles.dropdown_button}
         >
-          Выбрать коллекцию
+          Выбрать серию
           <img
             className={isActive ? styles.dropdown_img : ""}
             src={"/images/arrow.svg"}

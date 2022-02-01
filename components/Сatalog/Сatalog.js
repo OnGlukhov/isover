@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Size from "../Size/Size";
 
-export default function Сatalog({ width, products }) {
+export default function Сatalog({ width, products}) {
   const [productsFilter, setProductsFilter] = React.useState(products);
   const [button, setButton] = React.useState(0);
   const indexItem = (index) => {
